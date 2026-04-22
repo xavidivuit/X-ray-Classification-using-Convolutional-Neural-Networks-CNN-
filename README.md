@@ -19,7 +19,7 @@ This project develops and compares two CNN architectures to automatically classi
 | Train | 283      | 277    | 560   |
 | Test  | 67       | 73     | 140   |
 
-- Source: [NIH Chest X-ray Dataset](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community)
+- The model was trained on a balanced subset of 700 images (350 effusion,350 normal) extracted from the NIH Chest X-ray Dataset. The full dataset is publicly available on [Kaggle](https://www.kaggle.com/datasets/nih-chest-xrays/data).
 - Original resolution: 512×512×3 px
 - Preprocessing: resized to **64×64**, converted to **grayscale**, normalised to **[0, 1]**
 
