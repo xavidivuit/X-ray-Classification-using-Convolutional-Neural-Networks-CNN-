@@ -84,13 +84,6 @@ Each model is trained **5 times** with different random seeds; the best run by A
 ```bash
 pip install tensorflow scikit-learn pandas numpy matplotlib seaborn
 ```
-
-Or all at once:
-
-```bash
-pip install tensorflow scikit-learn pandas numpy matplotlib seaborn pathlib
-```
-
 Tested with Python 3.10+ and TensorFlow 2.x.
 
 > `os`, `random`, and `pathlib` are part of the Python standard library — no installation needed.
